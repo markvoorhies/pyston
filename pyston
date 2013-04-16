@@ -170,7 +170,7 @@ import sys
 # Default list of commonly used projects, can be changed statically here if
 # desired, though it's easy enough for users to customize themselves.
 default_projects = ['ipython', 'numpy', 'scipy', 'matplotlib', 'sympy', 
-                    'cython', 'statsmodels', 'scikit-learn', 'scikits-image',
+                    'cython', 'statsmodels', 'scikit-learn', 'scikit-image',
                     'wesm:pandas']
 
 # These globals are needed below, their values are set in create_globals()
@@ -234,7 +234,7 @@ def uninstall(repo):
     specials = {'matplotlib' : ['pytz', 'dateutil', 'pylab*', 'mpl_toolkits'],
                 'cython' : ['cython.py*', 'Cython*', 'pyximport'],
                 'scikit-learn' : ['scikit_learn*'],
-                'scikits-image' : ['scikits.image-*.egg', 'skimage-*.egg'],
+                'scikit-image' : ['scikits.image-*.egg', 'skimage-*.egg'],
                 'statsmodels' : ['scikits.statsmodels-*.egg'],
                 }
     
